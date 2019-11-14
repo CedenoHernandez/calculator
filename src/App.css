@@ -1,3 +1,33 @@
 body {
     background-color: #bed3eb;
 }
+
+h1{
+    text-align: center;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+button {
+    width: 30%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.display {
+    border: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
