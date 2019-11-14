@@ -31,3 +31,16 @@ button {
     font-size: 20px;
     text-align: center;
 }
+
+#subtract,
+#multiply,
+#decimal,
+#divide,
+#add {
+    background: #ed8593;
+}
+
+#clear,
+#equals {
+    background: #a557d9;
+}

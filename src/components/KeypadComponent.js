@@ -18,7 +18,7 @@ class KeypadComponent extends Component {
                 <button name="9" id="nine" onClick={e => this.props.onClick(e.target.name)}>9</button>
 
                 <button name="+" id="add" onClick={e => this.props.onClick(e.target.name)}>+</button>
-                <button name="-" id="subtact" onClick={e => this.props.onClick(e.target.name)}>-</button>
+                <button name="-" id="subtract" onClick={e => this.props.onClick(e.target.name)}>-</button>
                 <button name="*" id="multiply" onClick={e => this.props.onClick(e.target.name)}>x</button>
                 <button name="/" id="divide" onClick={e => this.props.onClick(e.target.name)}>÷</button>
 
