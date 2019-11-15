@@ -1,9 +1,13 @@
 body {
-    background-color: #bed3eb;
+    background-color: #6B7A8F;
+    font: Helvetica;
 }
 
 h1{
     text-align: center;
+    color: #DCC7AA;
+    text-transform: uppercase;
+    text-shadow: -4px 0 black;
 }
 .button {
     display: flex;
@@ -18,16 +22,20 @@ h1{
 button {
     width: 30%;
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    background: #F7882F;
+    border: solid;
 }
 
 .display {
     border: solid;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: #DCC7AA;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-size: 20px;
     text-align: center;
 }
@@ -37,10 +45,10 @@ button {
 #decimal,
 #divide,
 #add {
-    background: #ed8593;
+    background: #F7C331;
 }
 
 #clear,
 #equals {
-    background: #a557d9;
+    background: #DCC7AA;
 }
