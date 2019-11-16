@@ -1,12 +1,12 @@
 body {
-    background-color: #6B7A8F;
+    background-color: #6B5B95;
     font: Helvetica;
 }
 
 h1{
     margin-top: 50px;
     text-align: center;
-    color: #DCC7AA;
+    color: #ffd7b0;
     text-transform: uppercase;
     text-shadow:
         -2px -2px 0px #000,
@@ -39,10 +39,10 @@ button {
     margin-left: 110px;
     margin-right: 110px;
     margin-bottom: 10px;
-    background-color: #DCC7AA;
+    background-color: #ffd7b0;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -56,5 +56,5 @@ button {
 
 #clear,
 #equals {
-    background: #DCC7AA;
+    background: #ffd7b0;
 }

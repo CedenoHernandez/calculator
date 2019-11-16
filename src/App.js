@@ -48,7 +48,7 @@ class App extends Component {
         return (
             <div>
                 <div className="calculator body">
-                    <h1> Calculator </h1>
+                    <h1> My Calculator </h1>
                     <ResultComponent result={this.state.result}/>
                     <KeypadComponent onClick={this.onClick}/>
                 </div>
