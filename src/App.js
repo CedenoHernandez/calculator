@@ -32,7 +32,7 @@ class App extends Component {
            })
        } catch (e) {
            this.setState({
-               result: "error"
+               result: "ERROR"
            })
 
        }

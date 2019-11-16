@@ -4,38 +4,44 @@ body {
 }
 
 h1{
+    margin-top: 50px;
     text-align: center;
     color: #DCC7AA;
     text-transform: uppercase;
-    text-shadow: -4px 0 black;
-}
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    align-content: flex-end;
+    text-shadow:
+        -2px -2px 0px #000,
+        -1px -2px 0px #000,
+         0px -2px 0px #000,
+         1px -2px 0px #000,
+         2px -2px 0px #000,
+         2px -1px 0px #000,
+         2px  0px 0px #000,
+         2px  1px 0px #000,
+         2px  2px 0px #000,
+         1px  2px 0px #000,
+         0px  2px 0px #000,
+        -1px  2px 0px #000,
+        -2px  2px 0px #000,
+        -2px  1px 0px #000,
+        -2px  0px 0px #000,
+        -2px -1px 0px #000;
 }
 
 button {
-    width: 30%;
     padding: 20px;
     font-size: 25px;
-    border-radius: 50%;
     background: #F7882F;
     border: solid;
 }
 
-.display {
+#display {
     border: solid;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
     margin-bottom: 10px;
     background-color: #DCC7AA;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
     text-align: center;
 }
