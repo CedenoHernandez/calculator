@@ -1,10 +1,11 @@
 body {
     background-color: #6B5B95;
+    background-image: url("morocco-blue.png");
     font: Helvetica;
 }
 
 h1{
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     color: #ffd7b0;
     text-transform: uppercase;
@@ -34,16 +35,17 @@ button {
     border: solid;
 }
 
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 #display {
     border: solid;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-bottom: 10px;
     background-color: #ffd7b0;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-size: 25px;
     text-align: center;
+
 }
 
 #subtract,
