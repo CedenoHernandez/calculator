@@ -12,7 +12,18 @@ class App extends Component {
     }
 
     onClick = button => {
-        if(button === "="){
+
+        //
+        if (button === ".") {
+            this.setState({
+                result: this.state.result + button
+            })
+            document.getElementById("decimal").disabled=true; {/* Prevents user from putting multiple decimals in a row */}
+        }
+
+
+        //
+        else if(button === "="){
             this.calculate()
         }
         else if(button === "C"){
@@ -39,6 +50,7 @@ class App extends Component {
     };
 
     reset = () => {
+        document.getElementById("decimal").disabled=false; {/* Restores ability to use decimal upon reset */}
         this.setState({
             result: ""
         })
