@@ -1,6 +1,6 @@
 body {
-    background-color: #6B5B95;
-    background-image: url("just-waves.png"); /*image from www.toptal.com/designers/subtlepatterns/  */
+    background-color: #FC4445;
+    /*background-image: url("just-waves.png"); /*image from www.toptal.com/designers/subtlepatterns/  */
     font: Helvetica;
     font-weight: bold;
 }
@@ -8,7 +8,7 @@ body {
 h1{
     margin-top: 30px;
     text-align: center;
-    color: #32A0FF;
+    color: #3FEEE6;
     text-transform: uppercase;
     text-shadow:
         -3px -2px 0px #000,
@@ -33,7 +33,7 @@ button {
     padding: 20px;
     font-size: 25px;
     font-weight: bold;
-    background: #FF9132;
+    background: #3FEEE6;
     border: solid;
     border-radius: 10%;
 }
@@ -46,7 +46,7 @@ button {
 #display {
     border: solid;
     border-radius: 10%;
-    background-color: #FFF832;
+    background-color: #CAFAFE;
     font-size: 25px;
     text-align: center;
     padding-top: 2%;
@@ -58,12 +58,12 @@ button {
 #decimal,
 #divide,
 #add {
-    background:#32A0FF;
+    background:#55BCC9;
 }
 
 #clear,
 #equals {
-    background: #FFF832;
+    background: #97CAEF;
 }
 
 /* ------------------------- Media Queries ----------------------------- */
