@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import ResultComponent from './components/ResultComponent';
 import KeypadComponent from './components/KeypadComponent';
+import ThemeComponent from './components/ThemeComponent';
 
 class App extends Component {
     constructor() {
@@ -63,6 +64,7 @@ class App extends Component {
                     <h1> My Calculator </h1>
                     <ResultComponent result={this.state.result}/>
                     <KeypadComponent onClick={this.onClick}/>
+                    <ThemeComponent />
                 </div>
             </div>
         )
