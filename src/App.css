@@ -1,13 +1,17 @@
 body {
     background-color: #FC4445;
-    /*background-image: url("just-waves.png"); /*image from www.toptal.com/designers/subtlepatterns/  */
     font: Helvetica;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 h1{
     margin-top: 30px;
+    width: 500px;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     color: #3FEEE6;
     text-transform: uppercase;
     text-shadow:
@@ -35,22 +39,21 @@ button {
     font-weight: bold;
     background: #3FEEE6;
     border: solid;
-    border-radius: 10%;
 }
 
 .container {
-    padding-left: 10%;
-    padding-right: 10%;
+    background: #E6E6E6;
+    width: 500px;
 }
 
 #display {
     border: solid;
-    border-radius: 10%;
     background-color: #CAFAFE;
     font-size: 25px;
     text-align: center;
     padding-top: 2%;
-
+    min-height: 70px;
+    width: 500px;
 }
 
 #subtract,
@@ -69,7 +72,11 @@ button {
 .themes {
     padding-top: 3%;
     padding-bottom: 5%;
+    width: 500px;
+    margin: 0 auto;
     text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 
 #theme1,
@@ -115,7 +122,7 @@ button {
   100% {transform: scale(.92,.9);}
 }
 
-keyframes active {
+@keyframes active {
   0% {transform: scale(1,1);}
   90% {transform: scale(.9,.88);}
   100% {transform: scale(.92,.9);}
@@ -218,40 +225,11 @@ keyframes active {
 
 /* ------------------------- Media Queries ----------------------------- */
 
-/* iPad */
 
-@media screen and (width: 768px) {
-    .container {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-}
-
-/* iPad Pro */
-@media screen and (width: 1024px) {
-    body {
-        margin-top: 10%;
-    }
-    .container {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    #theme1, #theme2, #theme3 {
-        padding: 40px;
-    }
-}
-
-/* desktop */
-
-@media screen and (min-width: 900px) and (max-width: 1600px) {
-    body {
-        margin-top: 5%;
-    }
-    .container {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    #theme1, #theme2, #theme3 {
-        padding: 40px;
-    }
+@media (max-width: 530px) {
+  h1,
+  .container,
+  .themes {
+    width: 330px;
+  }
 }
